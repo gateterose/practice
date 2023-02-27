@@ -1,3 +1,41 @@
 .home{
-    
+    color: green;
+    font-size: 30px;
+    font-family: cursive;
+    padding: 5px 10px;
+
+}
+.container{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    align-self: center;
+}
+.links{
+    align-content: center;
+    height: 10px;
+    text-decoration: none;
+    text-transform: none;
+    text-decoration-line: none;
+    margin-top: 50px;
+    word-spacing: 10px;
+}
+nav button{
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 3px;
+    margin: 30px;
+    font-weight: normal;
+    text-align: center;
+    background-color: green;
+    color: rgb(221, 213, 213);
+    flex-wrap: inherit;
+    height: max-content;
+}
+nav{
+    padding: 5px 5px;
+    margin: 0%;
+    height: 100px;
 }
